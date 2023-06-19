@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 20vw;
+    height: 100vh;
+    background-color: #000000;
+    gap:1em;
+    padding-top: 2em;
+}
+nav button{
+    width: 15vw;
+    height: 3em;
+    border-radius: 0;
+    background-color: #2B2B2B;
+    color: #FAFAFA;
+}
+footer{
+    color: #FAFAFA;
+}
+main{
+    background-color: #2B2B2B;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    gap: 1em;
+}
+.musica{
+    border: 3px solid black;
+    background-color: black;
+    box-shadow: 2px 2px 3px black;
+    display: flex;
+    gap: 1em;
+    color: #FAFAFA;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition:  0.5s;
+    transform: translateX(0) scale(1.0);
+}
+.musica:hover{
+    background: rgb(0, 0, 0);
+    transform: translateX(5px) scale(1.0);
+}
+.musica img{
+    width: 5vw;
+}
+nav a:hover{
+    background: rgb(0, 0, 0);
+    transition: 5ms;
+    transform: scale(1.1);
+}
